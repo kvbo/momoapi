@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", <requests>]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "momoapi"
+version = "0.0.1"
+authors = [
+  { name="Kayongo Fwoloshi", email="kayongokayhood@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kvbo/momoapi"
+"Bug Tracker" = "https://github.com/kvbo/momoapi/issues"
